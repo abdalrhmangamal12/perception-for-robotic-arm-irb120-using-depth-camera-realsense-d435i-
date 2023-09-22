@@ -163,9 +163,13 @@ The number detection algorithm is used in our   application to recognize the num
 
 
 ## Results 
-watch youtube video
+
+**watch youtube video**
+
+
 
 [![Watch the Video](https://img.youtube.com/vi/ZXA9SAabvSY/0.jpg)](https://www.youtube.com/watch?v=ZXA9SAabvSY)
+
 
 
 Here we are comparing our precision-recall curves with previous models, we could notice that our mechanical parts (classes) are more than the previous model mentioned in section Also, the Recall value of all classes is 92.6%, while the best previous model shows that the recall value was 91% at the same mAP value (0.5).
