@@ -57,6 +57,7 @@ Dynamic calibration involves rectification and depth scale calibration. Here's a
 6. Optimize extrinsic parameters to minimize rectification error.
    
 ![dynamic](./mechanical%20parts%20detection/photos/dynamic%20caliberation%20.png)
+
 #### Hybrid Calibration
 
 Hybrid calibration combines target-less and targeted calibration for convenience and accuracy. It rectifies left/right images and performs targeted scale calibration.
@@ -148,8 +149,11 @@ Calibrating the camera mounted on the robot's end effector.
 
 Improving image quality with autoexposure.
 **before using filter** 
+
 ![line](./mechanical%20parts%20detection/photos/1.jpeg)
+
 **after using filter**
+
 ![line](./mechanical%20parts%20detection/photos/2.jpeg)
 
 ## Number Detection
@@ -159,7 +163,8 @@ The number detection algorithm is used in our   application to recognize the num
 
 ## Results 
 
-[![watch video ](./mechanical%20parts%20detection/photos/video.mp4)
+[![Watch the Video](https://img.youtube.com/vi/ZXA9SAabvSY/0.jpg)](https://www.youtube.com/watch?v=ZXA9SAabvSY)
+
 
 Here we are comparing our precision-recall curves with previous models, we could notice that our mechanical parts (classes) are more than the previous model mentioned in section Also, the Recall value of all classes is 92.6%, while the best previous model shows that the recall value was 91% at the same mAP value (0.5).
 
