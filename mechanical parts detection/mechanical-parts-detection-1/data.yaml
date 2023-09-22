@@ -1,0 +1,17 @@
+names:
+- bearing
+- bolt
+- flange
+- gear
+- nut
+- spring
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: mechanical-parts-detection-rrbfx
+  url: https://universe.roboflow.com/abdalrahmangamal/mechanical-parts-detection-rrbfx/dataset/1
+  version: 1
+  workspace: abdalrahmangamal
+test: ../test/images
+train: mechanical-parts-detection-1/train/images
+val: mechanical-parts-detection-1/valid/images
